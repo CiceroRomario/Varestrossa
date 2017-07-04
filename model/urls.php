@@ -1,7 +1,5 @@
 <?php
 
-	//include_once '../controller/login.php';
-	
 	//Variável que guarda o nome do proj.
 	$project_name = "ProjetoEstoqueVarestrossa";
 

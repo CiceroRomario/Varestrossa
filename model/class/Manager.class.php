@@ -57,7 +57,7 @@
 				$data[$key] = filter_var($value);
 			}
 
-			//substituindo os parametros nomeados pelos verdadeiros valores, ex: ":name" por "Alessandro"
+			//substituindo os parametros nomeados pelos verdadeiros valores, ex: ":name" por "Romário"
 			
 			foreach ($data as $key => $value){
 				//$parameters[":$key"] = $value;
@@ -274,13 +274,13 @@
 				$data[$key] = filter_var($value);
 			}
 
-			//substituindo os parametros nomeados pelos verdadeiros valores, ex: ":name" por "Alessandro"
+			//substituindo os parametros nomeados pelos verdadeiros valores, ex: ":name" por "Romario"
 			foreach ($data as $key => $value){
 				//$parameters[":$key"] = $value;
 				$statement->bindValue(":$key", $value, PDO::PARAM_STR);
 			}
 
-			//substituindo os parametros dos filtros nomeados pelos verdadeiros valores, ex: ":name" por "Alessandro"
+			//substituindo os parametros dos filtros nomeados pelos verdadeiros valores, ex: ":name" por "Romario"
 			foreach ($filters as $key => $value){
 				//$parameters[":$key"] = $value;
 				$statement->bindValue(":$key", $value, PDO::PARAM_STR);
@@ -334,7 +334,7 @@
 
 			
 
-			//substituindo os parametros dos filtros nomeados pelos verdadeiros valores, ex: ":name" por "Alessandro"
+			//substituindo os parametros dos filtros nomeados pelos verdadeiros valores, ex: ":name" por "Romario"
 			foreach ($filters as $key => $value){
 				//$parameters[":$key"] = $value;
 				$statement->bindValue(":$key", $value, PDO::PARAM_STR);
