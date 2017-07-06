@@ -29,4 +29,3 @@
 	$manager->insert_common('tb_user', $data, "");
 
 	header("location: $project_index/".$user->profile_page.".php?option=list_users&success=user_created");
-?>
