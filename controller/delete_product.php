@@ -30,5 +30,3 @@
 	$manager->delete_common('tb_product', $data, "");
 
 	header("location: $project_index/".$user->profile_page.".php?option=list_products&success=product_deleted");
-
-?>

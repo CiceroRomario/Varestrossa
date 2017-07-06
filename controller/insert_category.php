@@ -27,4 +27,3 @@
 	$manager->insert_common('tb_category', $data, "");
 
 	header("location: $project_index/".$user->profile_page.".php?option=list_categories&success=category_created");
-?>

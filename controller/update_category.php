@@ -33,4 +33,3 @@
 	$manager->update_common('tb_category', $new_data, $filter, "");
 
 	header("location: $project_index/".$user->profile_page.".php?option=list_categories&success=category_updated");
-?>

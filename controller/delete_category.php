@@ -32,5 +32,3 @@
 	$manager->delete_common('tb_product', array('category_id'=>$_POST['filter']));
 
 	header("location: $project_index/".$user->profile_page.".php?option=list_categories&success=category_deleted");
-
-?>

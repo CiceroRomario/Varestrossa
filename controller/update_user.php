@@ -42,6 +42,3 @@
 	$_SESSION[md5('us_inventory')] = $user;
 
 	header("location: $project_index/".$user->profile_page.".php?success=user_updated");
-
-
-?>

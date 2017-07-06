@@ -37,5 +37,3 @@
 	$manager->update_common('tb_product', $new_data, $filter, "");
 
 	header("location: $project_index/".$user->profile_page.".php?option=list_products&success=product_updated");
-
-?>

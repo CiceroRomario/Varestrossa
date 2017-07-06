@@ -6,10 +6,8 @@
 	include_once 'controller/validate.php';
 	//dicionário
 	include_once 'model/dictionary.php';
-
 	//classe de modelo do Usuário
 	include_once 'model/class/User.class.php';
-
 	//iniciar a sessao
 	session_start();
 
@@ -26,7 +24,6 @@
 		header("location: $project_index?error=permission_denied");
 	}
 
-
 	//titulo da página
 	$page_title = "Página do Administrador";
 
@@ -38,7 +35,5 @@
 		}
 	}
 
-
 	//incluindo template
 	include_once 'view/template.html';
-?>

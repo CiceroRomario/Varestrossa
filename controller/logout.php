@@ -9,4 +9,3 @@
 
 	//retorna pro usuario(index) a resposta
 	header("location: $project_index?success=logout");
-?>

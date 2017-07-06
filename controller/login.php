@@ -59,5 +59,3 @@
 
 		header("location: $project_index");
 	}
-	
-?>

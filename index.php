@@ -21,8 +21,7 @@
 		header("location: ".$user->profile_page.".php");
 	}
 
-
-	//titulo da página
+        //titulo da página
 	$page_title = "Página Inicial";
 
 	function page_content(){
@@ -30,8 +29,5 @@
 		validate_option();
 		include_once $GLOBALS['project_path'].'/view/welcome.html';
 	}
-
-
-	//incluindo template
+        //incluindo template
 	include_once 'view/template.html';
-?>
